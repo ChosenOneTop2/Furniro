@@ -14,47 +14,46 @@
     <!-- custom css file link -->
     <link rel="stylesheet" href="style.css" />
 
+    <!-- custom css file link 2-->
+    <link rel="stylesheet" href="style2.css" />
+
     <title>E-commerce website</title>
   </head>
 
-  <header>
-    <div class="logo">
-      <img src="images/Frame 168.png" alt="" />
-      Furniro
-    </div>
-
-    <nav class="navbar">
-      <a class="active" href="#home">home</a>
-      <a href="#shop">shop</a>
-      <a href="#about">about</a>
-      <a href="#contact">contact</a>
-    </nav>
-
-    <div class="icons">
-      <i class="fas fa-search" id="bars"></i>
-      <a href="#" class="fas fa-heart"></a>
-      <a href="#" class="fas fa-shopping-cart"></a>
-    </div>
-  </header>
-
   <body>
+    <header>
+      <div class="logo">
+        <img src="images/Frame 168.png" alt="" />
+        Furniro
+      </div>
+
+      <nav class="navbar">
+        <a class="active" href="#home">home</a>
+        <a href="#shop">shop</a>
+        <a href="#about">about</a>
+        <a href="#contact">contact</a>
+      </nav>
+
+      <div class="icons">
+        <i class="fas fa-search" id="1bars"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+      </div>
+    </header>
     <section class="home" id="home">
       <div class="image-group">
         <img
+          class="wall-img"
           src="images/scandinavian-interior-mockup-wall-decal-background 1 (1).png"
           alt=""
         />
         <div class="Arrival-div">
-          `
           <div class="text-container">
             <h2 class="text-less">New Arrival</h2>
-            <h1 class="text-main">
-              Discover Our<br />
-              New Collection
-            </h1>
+            <h1 class="text-main">Discover Our New Collection</h1>
             <h2 class="text-less">
-              Lorem ipsum dolar sit amet, consectetur adipiscing elit. Ut
-              <br />elit tellus, lucus nec ullamcorper mattis.
+              Lorem ipsum dolar sit amet, consectetur adipiscing elit. Ut elit
+              tellus, lucus nec ullamcorper mattis.
             </h2>
             <button href="#" class="primary-button">Buy Now</button>
           </div>
@@ -77,7 +76,7 @@
                 alt=""
               />
             </div>
-            <h2 class="dining-text">Dining</h2>
+            <h2 class="range-text">Dining</h2>
           </div>
           <div class="range-living">
             <div class="living-img">
@@ -87,7 +86,7 @@
                 alt=""
               />
             </div>
-            <h2 class="living-text">Living</h2>
+            <h2 class="range-text">Living</h2>
           </div>
           <div class="range-bedroom">
             <div class="bedroom-img">
@@ -97,7 +96,7 @@
                 alt=""
               />
             </div>
-            <h2 class="bedroom-text">Bedroom</h2>
+            <h2 class="range-text">Bedroom</h2>
           </div>
         </div>
       </div>
@@ -105,17 +104,165 @@
 
     <section class="product" id="product">
       <h1 class="Sub-heading">Our Products</h1>
-
       <div class="product-container">
         <div class="product-card">
           <div class="product-image">
             <img src="images/product-1.png" class="product-thumb" alt="" />
+            <span class="discount-tag">-30%</span>
           </div>
           <div class="product-info">
             <h3 class="product-sylth">Syltherine</h3>
             <p class="product-short-description">stylish cafe chair</p>
             <span class="price">Rp 2.500.000</span
             ><span class="actual-price">Rp 3.500.000</span>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/product-4.png" class="product-thumb" alt="" />
+          </div>
+          <div class="product-info">
+            <h3 class="product-sylth">Leviosa</h3>
+            <p class="product-short-description">stylish cafe chair</p>
+            <span class="price">Rp 2.500.000</span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/product-2.png" class="product-thumb" alt="" />
+            <span class="discount-tag">-50%</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-sylth">Lolito</h3>
+            <p class="product-short-description">Luxury big sofa</p>
+            <span class="price">Rp 7.000.000</span
+            ><span class="actual-price">Rp 14.000.000</span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/product-3.png" class="product-thumb" alt="" />
+            <span class="New-tag">New</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-sylth">Respira</h3>
+            <p class="product-short-description">Outdoor balcony and stool</p>
+            <span class="price">Rp 500.000</span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/product-5.png" class="product-thumb" alt="" />
+          </div>
+          <div class="product-info">
+            <h3 class="product-sylth">Grifo</h3>
+            <p class="product-short-description">Night lamp</p>
+            <span class="price">Rp 1.500.000</span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/product-6.png" class="product-thumb" alt="" />
+            <span class="New-tag">New</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-sylth">Muggo</h3>
+            <p class="product-short-description">Small mug</p>
+            <span class="price">Rp 150.000</span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/product-7.png" class="product-thumb" alt="" />
+            <span class="discount-tag">-50%</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-sylth">Pingky</h3>
+            <p class="product-short-description">Cute bed set</p>
+            <span class="price">Rp 7.000.000</span
+            ><span class="actual-price">Rp 14.000.000</span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/product-8.png" class="product-thumb" alt="" />
+            <span class="New-tag">New</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-sylth">Potty</h3>
+            <p class="product-short-description">Minimalist flower pot</p>
+            <span class="price">Rp 500.000</span>
+          </div>
+        </div>
+      </div>
+      <div class="more-button">
+        <button href="#" class="product-button">Show More</button>
+      </div>
+    </section>
+
+    <section class="rooms" id="rooms">
+      <div class="rooms-container">
+        <div class="rooms-text">
+          <h1 class="title">50+ Beautiful rooms inspiration</h1>
+          <p class="rooms-main">
+            our designer already made alot of beutiful prototype rooms that
+            inspire you
+          </p>
+          <div class="room-button">
+            <button href="#" class="room1-button">Explore More</button>
+          </div>
+        </div>
+        <div class="room1-image">
+          <img src="images/Room 1.png" class="product-image1" alt="" />
+          <div class="rooms-div">
+            <p class="product-room-description">01 --- Bed Room</p>
+            <h2 class="product-piece">Inner Piece</h2>
+          </div>
+          <button class="room1-right">
+            <p class="room1-text">-</p>
+            <div class="room-right"></div>
+          </button>
+        </div>
+        <div class="room2-image">
+          <img src="images/Room 2.png" class="product-image2" alt="" />
+          <button class="arrow-button">
+            <div class="arrow-right"></div>
+          </button>
+          <div class="carousal-container">
+            <div class="carousal1-container">
+              <button class="carousal1-button">
+                <div class="carousal1-div"></div>
+              </button>
+            </div>
+            <button class="carousal2-button">
+              <div class="carousal2-div"></div>
+            </button>
+            <button class="carousal2-button">
+              <div class="carousal2-div"></div>
+            </button>
+            <button class="carousal2-button">
+              <div class="carousal2-div"></div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="furniture" id="furniture">
+      <div class="furniture-group">
+        <h3 class="share">Share your setup with</h3>
+        <h1 class="furniro-furniture">#FurniroFurniture</h1>
+      </div>
+      <div class="furniture-container">
+        <div class="furniture-card">
+          <div class="furniture-image">
+            <img src="images/mansory.png" class="mansory" alt="" />
           </div>
         </div>
       </div>
@@ -125,7 +272,8 @@
       <div class="row">
         <div class="col">
           <h1 class="site-name">Furniro.</h1>
-          <p>400 University Drive Suite 200 Coral Gables. <br />FL 33134 USA</p>
+          <p>400 University Drive Suite 200 Coral Gables.</p>
+          <p>FL 33134 USA</p>
         </div>
         <div class="col">
           <h3>Links</h3>
@@ -148,12 +296,19 @@
           <h3>Newsletter</h3>
           <form>
             <input
+              id="email"
               type="email"
               placeholder="Enter Your Email Address"
               required
             />
+            <button class="subscribe">
+              <div class="submit-button">SUBSCRIBE</div>
+            </button>
           </form>
         </div>
+      </div>
+      <div class="copyright-wrapper">
+        <p>2023 furniro. All rights reverved</p>
       </div>
     </footer>
   </body>
